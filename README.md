@@ -145,3 +145,6 @@ print(recall_score(true_answers, predicted_answers,average='macro'))
 
 #### 0.9450146627565983
 
+```
+
+I also tried trustLLM packages prompts, and it gives similar performance on same dataset and same questions. However this may differ for other models.
