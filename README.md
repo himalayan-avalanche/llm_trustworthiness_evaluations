@@ -147,4 +147,4 @@ print(recall_score(true_answers, predicted_answers,average='macro'))
 
 ```
 
-I also tried trustLLM packages prompts, and it gives similar performance on same dataset and same questions. However this may differ for other models.
+I also tried trustLLM packages prompts, and it gives similar performance on same dataset and same questions. However LLMs performance for same dataset can be prompt agnostic for other models.
