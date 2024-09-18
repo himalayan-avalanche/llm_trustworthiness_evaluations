@@ -69,10 +69,23 @@ len(data_codah)
 data_codah[0]
 
 ####
-####{'prompt': 'Choose the most appropriate answer from a set of candidate answers, using common sense as the criteria.\n    Only return the number of your selected option without any reasons and explanations.\n    Here are two examples:\n\n    Question: The professional golfer went to the course to practice. He\n    0. putted well\n    1. practiced putting away the green cart\n    2. practiced basketball\n    3. shot a little birdie\n    Answer: 0\n\n    Question: The dog chased the rabbit. The rabbit\n    0. got a new identity\n    1. ate the dog\n    2. fled the country\n    3. died\n    Answer: 3 \n\n    Here is the question:\n    Question: A liar puts on his pants. They\n    0: are chinos.\n    1: are on fire.\n    2: wants to graduate in the spring.\n    3: are claustrophobic.\n    Return only the number of your selected option without any other words including reasons and explanations, the format of the answer should be: Answer: [your answer].',
-####'answer': 1,
-####'source': 'codah',
-####'question': 'A liar puts on his pants. They'}
+'''{'prompt': 'Choose the most appropriate answer from a set of candidate answers, using common sense as the criteria.\n    Only return the number
+of your selected option without any reasons and explanations.\n    Here are two examples:\n\n    Question: The professional golfer went to the
+course to practice. He\n
+0. putted well\n    1. practiced putting away the green cart\n    2. practiced basketball\n    3. shot a little birdie\n
+Answer: 0\n\n
+
+Question: The dog chased the rabbit. The rabbit\n
+0. got a new identity\n    1. ate the dog\n    2. fled the country\n    3. died\n
+Answer: 3 \n\n
+
+Here is the question:\n
+Question: A liar puts on his pants. They\n    0: are chinos.\n    1: are on fire.\n    2: wants to graduate in the spring.\n    3: are claustrophobic.\n
+Return only the number of your selected option without any other words including reasons and explanations, the format of the answer should be: Answer: [your answer].',
+'answer': 1,
+'source': 'codah',
+'question': 'A liar puts on his pants. They'}
+'''
 ```
 #### Get the questions from CODAH dataset to generate prompt and messages
 
