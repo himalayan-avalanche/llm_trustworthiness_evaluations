@@ -4,12 +4,19 @@ From my initial understanding, it seems that the main ingredients in LLM trustwo
 performance with respect to certain dimensions. Most commonly used dimensions are: (Refer here for more details from vijil.ai https://docs.vijil.ai/tests-library/index.html)
 
   i.    Security
+  
   ii.   Privacy
+  
   iii.  Hallucination
+  
   iv.   Robustness
+  
   v.    Toxicity
+  
   vi.   Stereotype
+  
   vii.  Fairness
+  
   viii. Ethics
 
   This list is ever evolving.
