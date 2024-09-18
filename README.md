@@ -27,6 +27,7 @@ performance with respect to certain dimensions. Most commonly used dimensions ar
 
 <img width="664" alt="image" src="https://github.com/user-attachments/assets/9c066ca2-d04b-4b22-aec3-42887d2830a8">
 
+
 2. Creating set of prompts to to test model’s performance with respect to the underlying dimensions. When it comes to prompting to generate response from LLMs, recent models responses are less variant to change in prompts structure or content as they use longer context window to understand the users messages.
 
 These questions, prompts (ability to test and identify issues) is standout features are any LLM evaluation framework.
