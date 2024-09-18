@@ -34,7 +34,7 @@ These questions, prompts (ability to test and identify issues) is standout featu
 
 ## Scope of LLM Trustworthiness Evaluations
 
-As LLMs are increasing getting integrated into mainstream tasks, one LLM does not fit for all purposes. Depending upon the use case, the LLMs need to custom train/fine tuned for various tasks. This requires having a robust and trustworthy gold standard LLM evaluation framework.
+As LLMs are increasing getting integrated into mainstream tasks, one LLM does not fit all purposes. Depending upon the use case, the LLMs need to custom train/fine tuned for various tasks. This requires having a robust and trustworthy gold standard LLM evaluation framework.
 To draw a parellel, we can think of predefined compliant standards such as Fair Lending Regulations (	'Equal Credit Opportunity Act (ECOA)' and 'Fair Housing Act (FHA)' ), General Data Protection Regulation (GDPR) or Basel Committee on Banking Supervision (BCBS) AI Guidelines. These compliance standards ensure that the machine learning models used by various institutions are ethical, fair, transparent, secure while address the risks related to data privacy, fairness, accountability, and model interpretability.
 We can expect similar set or even larger set of compliance standards for LLM use cases. LLM evaluations benchmarks are the just one step in that direction.
 
@@ -54,11 +54,12 @@ import os
 from openai import OpenAI
 from sklearn.metrics import accuracy_score, precision_score, recall_score
 
-download_dataset(save_path='save_path')
+### To download the dataset, just uncomment the line below:
+# download_dataset(save_path='save_path')
 
 #### Get CODAH dataset of 100 items
 
-data_path="./save_path/dataset/truthfulness/internal.json"
+data_path="./dataset/truthfulness/internal.json"
 data_json=load_json(data_path)
 data_codah=[item for item in data_json if item['source']=='codah']
 
